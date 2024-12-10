@@ -1,0 +1,120 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #37b054; /* Light Mint Green */
+  }
+  
+  h1, h2 {
+    color: #023D54; /* Dark Blue */
+    text-align: center;
+  }
+  
+  /* Container */
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Form Styles */
+  .form-container {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-container h2 {
+    color: #023D54; /* Dark Blue */
+  }
+  
+  form {
+    display: grid;
+    gap: 15px;
+  }
+  
+  input {
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #9A6735; /* Rich Green */
+    border-radius: 5px;
+  }
+  
+  input:focus {
+    border-color: #023D54; /* Dark Blue */
+    outline: none;
+  }
+  
+  button[type="submit"] {
+    padding: 12px;
+    background-color: #023D54; /* Dark Blue */
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #9A6735; /* Rich Green */
+  }
+  
+  /* Table Styles */
+  .student-list {
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #023D54; /* Dark Blue */
+    color: rgb(255, 255, 255);
+  }
+  
+  td {
+    background-color: rgb(153, 0, 120);
+  }
+  
+  /* Button Styles */
+  button {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  .edit-btn {
+    background-color: #28a745; /* Green */
+    color: white;
+  }
+  
+  .delete-btn {
+    background-color: #dc3545; /* Red */
+    color: white;
+  }
+  
+  .edit-btn:hover {
+    background-color: #9A6735; /* Rich Green */
+  }
+  
+  .delete-btn:hover {
+    background-color: #023D54; /* Dark Blue */
+  }
+  
