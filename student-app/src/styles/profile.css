@@ -1,0 +1,100 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #94DEA5; /* Mint Green */
+    color: #023D54; /* Dark Teal */
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  header {
+    background-color: #023D54; /* Dark Teal */
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Buttons */
+  button {
+    background-color: #FFFF66; /* Bright Yellow */
+    color: #023D54; /* Dark Teal */
+    border: 2px solid #9A6735; /* Muted Teal */
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #9A6735; /* Muted Teal */
+    color: #ffffff;
+  }
+  
+  /* Cards */
+  .card {
+    background-color: #ffffff;
+    border: 1px solid #023D54; /* Dark Teal */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .card h3 {
+    color: #9A6735; /* Muted Teal */
+  }
+  
+  .card p {
+    color: #023D54; /* Dark Teal */
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #023D54; /* Dark Teal */
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Links */
+  a {
+    color: #FFFF66; /* Bright Yellow */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Form Elements */
+  input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #9A6735; /* Muted Teal */
+    border-radius: 4px;
+  }
+  
+  input:focus, select:focus, textarea:focus {
+    border-color: #023D54; /* Dark Teal */
+    outline: none;
+  }
+  
+  /* Container */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
