@@ -1,0 +1,95 @@
+/* Container for the workshop form */
+.workshop-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f7f7f7;
+    padding: 20px;
+  }
+  
+  /* Card for the form */
+  .workshop-form-card {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  /* Title styling */
+  .workshop-form-card h3 {
+    margin-bottom: 20px;
+    color: #3b3f42;
+    font-size: 24px;
+  }
+  
+  /* Form group styling */
+  .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #4b4b4b;
+    font-weight: bold;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .form-group input:focus {
+    border-color: #5cb85c;
+    outline: none;
+    box-shadow: 0 0 5px #5cb85c;
+  }
+  
+  /* Buttons container */
+  .form-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  /* Save button styling */
+  .btn-save {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .btn-save:hover {
+    background-color: #4cae4c;
+  }
+  
+  /* Cancel button styling */
+  .btn-cancel {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .btn-cancel:hover {
+    background-color: #c9302c;
+  }
+  

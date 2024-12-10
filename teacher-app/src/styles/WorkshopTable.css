@@ -1,0 +1,83 @@
+/* WorkshopTable styling */
+
+/* Table container */
+.workshop-table-container {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 20px;
+  background-color: #99cccc; /* Light teal for the container background */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  align-content: center;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  border: 2px solid #90ee90; /* Light green border for table */
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #90ee90; /* Light green border for cells */
+}
+
+th {
+  background-color: #28bca9; /* Teal for header background */
+  color: white;
+  text-transform: uppercase;
+}
+
+/* Table data rows */
+td {
+  color: #0000ff; /* Blue text for table data */
+}
+
+/* Alternate row colors */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Button styles */
+button {
+  padding: 8px 12px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Add button */
+button.add {
+  background-color: #00008b; /* Deep blue background */
+  color: white;
+}
+
+/* Update button */
+button.update {
+  background-color: #28a745; /* Green background */
+  color: white;
+}
+
+/* Delete button */
+button.delete {
+  background-color: #dc3545; /* Red background */
+  color: rgb(239, 238, 243);
+}
+
+/* Hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Table title */
+h2 {
+  color: #f2f5f5; /* Dark green for title */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
