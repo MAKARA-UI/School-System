@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #99cccc; /* Light Cyan */
+  }
+  
+  /* Container */
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Title */
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #223634; /* Dark Green */
+  }
+  
+  /* Form */
+  .form-container {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-container h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #28bca9; /* Light Teal */
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #fb4673; /* Bright Pink */
+    color: white;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  /* Teacher List */
+  .teacher-list {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .teacher-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .teacher-list th,
+  .teacher-list td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+    color: blue;
+  }
+  
+  .teacher-list th {
+    background-color: #223634; /* Dark Green */
+    color: white;
+  }
+  
+  button.edit-btn {
+    background-color: #28bca9; /* Light Teal */
+    color: white;
+  }
+  
+  button.delete-btn {
+    background-color: #fb4673; /* Bright Pink */
+    color: white;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+  
